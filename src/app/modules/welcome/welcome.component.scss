@@ -1,0 +1,29 @@
+.main__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.right__container {
+    background-image: url('../../../assets/images/fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;;
+}
+
+.left__container {
+    display: flex;
+    width: 50%;
+    background-color: #F2F4F8;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-size: 20px;
+    }
+    .img {
+        width: 200px;
+        height: 200px;
+    }
+}

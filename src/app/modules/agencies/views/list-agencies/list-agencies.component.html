@@ -1,0 +1,26 @@
+
+<app-loader [open]="loading"></app-loader>
+
+<section *ngIf="!loading">
+  <nav class="navbar navbar-light navbar__container">
+    <div class="container-fluid">
+      <img src="assets/images/menu-logo.PNG" alt="logo-bcp">
+    </div>
+  </nav>
+  <main class="container">
+    <div class="row">
+      <section class="col-12 col-lg-6 pt-5">
+        <app-item-card  *ngFor="let agency of agenciesList"
+        [data]="agency"
+        [routerLink]="['/agencias/detalle', agency.id]">
+      </app-item-card>
+      </section>
+    
+      <section class="col-12 col-lg-6">
+        <agm-map class="map">
+        </agm-map>
+      </section>
+    </div>
+  </main>
+</section>
+

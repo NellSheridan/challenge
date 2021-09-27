@@ -1,0 +1,45 @@
+<nav class="navbar navbar-light navbar__container">
+  <div class="container-fluid">
+    <img src="assets/images/menu-logo.PNG" alt="logo-bcp">
+  </div>
+</nav>
+<section class="container">
+  <div class="row">
+    <form [formGroup]="presenter.formAgencies" class="col-12 col-lg-5 g-4">
+      <div class="col-12 mb-4">
+        <label for="inputAgencia" class="form-label">Nombre de Agencia</label>
+        <input type="text" class="form-control" id="inputAgencia" formControlName="agencia" />
+      </div>
+      <div class="col-12 mb-4">
+        <label for="inputDireccion" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="inputDireccion" formControlName="direccion"/>
+      </div>
+      <div class="col-12 mb-4">
+        <label for="inputDistrito" class="form-label">Distrito</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputDistrito"
+          placeholder="Ejem: Villa María"
+          formControlName="distrito"
+        />
+      </div>
+      <div class="col-12 mb-4">
+        <label for="inputLatitud" class="form-label">Latitud</label>
+        <input type="text" class="form-control" id="inputAddress2" formControlName="lat"/>
+      </div>
+      <div class="col-12 mb-5">
+        <label for="inputLongitud" class="form-label">Longitud</label>
+        <input type="text" class="form-control" id="inputLongitud" formControlName="lon" />
+      </div>
+  
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary" (click)="saveInfo()">Actualizar</button>
+      </div>
+    </form>
+  
+  </div>
+</section>
+
+  
+  
