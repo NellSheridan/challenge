@@ -1,27 +1,17 @@
-# BankingAgencies
+# Agencias BCP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+Proyecto  generado con [Angular CLI](https://github.com/angular/angular-cli) version 12
 
-## Development server
+Requerimientos funcionales:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ ✔️ Pantalla 1: Un loading simple que muestre la carga de la página.<br />
+ ✔️ Pantalla 2: Se debe mostrar una lista de agencias del BCP, utilizando la data del archivo agencias.json, poner una imagen aleatoria para cada agencia. <br />
+ ✔️ Pantalla 3: Por cada agencia se debe mostrar un detalle que permita actualizar la información, esta información debe ser actualizada en el Storage del dispositivo, de tal modo este disponible cuando se vuelva a ingresar a la aplicación. Debe permitir volver a la pantalla 2 donde muestre los datos actualizados de la agencia.<br />
 
-## Code scaffolding
+## Ejecutar proyecto (Servidor de desarrollo)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Abrir consola de comando y seguir los siguientes pasos: 
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Ejecutar comando `npm install`
+2. Ejecutar comando `ng serve`
+3. Navegar a `http://localhost:4200/`
