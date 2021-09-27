@@ -1,14 +1,14 @@
 # Agencias BCP
 
-Proyecto  generado con [Angular CLI](https://github.com/angular/angular-cli) version 12
+Proyecto  generado con [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0
 
 Requerimientos funcionales:
 
- ✔️ Pantalla 1: Un loading simple que muestre la carga de la página.<br />
- ✔️ Pantalla 2: Se debe mostrar una lista de agencias del BCP, utilizando la data del archivo agencias.json, poner una imagen aleatoria para cada agencia. <br />
- ✔️ Pantalla 3: Por cada agencia se debe mostrar un detalle que permita actualizar la información, esta información debe ser actualizada en el Storage del dispositivo, de tal modo este disponible cuando se vuelva a ingresar a la aplicación. Debe permitir volver a la pantalla 2 donde muestre los datos actualizados de la agencia.<br />
+* Pantalla 1: Un loading simple que muestre la carga de la página.
+* Pantalla 2: Se debe mostrar una lista de agencias del BCP, utilizando la data del archivo agencias.json, poner una imagen aleatoria para cada agencia.
+* Pantalla 3: Por cada agencia se debe mostrar un detalle que permita actualizar la información, esta información debe ser actualizada en el Storage del dispositivo, de tal modo este disponible cuando se vuelva a ingresar a la aplicación. Debe permitir volver a la pantalla 2 donde muestre los datos actualizados de la agencia.
 
-## Ejecutar proyecto (Servidor de desarrollo)
+## Ejecutar proyecto
 
 Abrir consola de comando y seguir los siguientes pasos: 
 
